@@ -3,14 +3,14 @@
 
 <p align="left"> <a href="https://twitter.com/kpriyanshu2003" target="blank"><img src="https://img.shields.io/twitter/follow/kpriyanshu2003?logo=twitter&style=for-the-badge" alt="kpriyanshu2003" /></a> </p>
 
-- 👨‍💻 All about me is at [My LinkedIn](https://www.linkedin.com/in/priyanshukumar2003/)
+- 👨‍💻 All about me is at [My LinkedIn](https://www.linkedin.com/in/kpriyanshu2003/)
 - 💬 Ask me about `var topics = [ "HTML", "CSS", "C", "C++", "Java" ]`
 - 📫 How to reach me **priyanshukumar.241@protonmail.com**
 - 📄 Know about my work & experiences [My Resume](https://drive.google.com/file/d/1AD4UFSAIq1ryRCeFMuYGZIBySksQLoP9/view?usp=share_link)
 
 <!-- ### What are my featured projects:question::rocket:
-<code>[CPP-Marathon](https://github.com/priyanshukumar2003/CPP-Marathon)</code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="20" height="20"/>
-<code>[CSS-Marathon](https://github.com/priyanshukumar2003/CSS-Marathon)</code>:mask:
+<code>[CPP-Marathon](https://github.com/kpriyanshu2003/CPP-Marathon)</code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="20" height="20"/>
+<code>[CSS-Marathon](https://github.com/kpriyanshu2003/CSS-Marathon)</code>:mask:
 <code>[GirlScript Twitter Bot](https://github.com/chandrikadeb7/Girlscript-Twitter-Bot)</code>:robot:
 
 ### Wanna see my blogs:question::fire:
