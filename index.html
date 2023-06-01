@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Priyanshu Kumar's Profile</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/jpg" href="resources/avatar.jpg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Quicksand&family=Red+Hat+Display:wght@500&display=swap"
-    />
-    <link rel="stylesheet" href="resources/style.css" />
+
+    <link rel="stylesheet" href="./resources/style.css" />
+    <script src="./resources/script.js" defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css"
@@ -19,215 +17,30 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     />
-    <script src="resources/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand&family=Red+Hat+Display:wght@500&display=swap"
+    />
   </head>
-
   <body>
-    <!-- Image, name and quote section -->
     <div class="container">
       <img src="resources/avatar.jpg" /><br />
       <font size="6">Priyanshu Kumar</font><br />
       <font size="4">A machine 👨🏻‍💻 that converts coffee into code 🌐</font><br />
     </div>
-
-    <br />
-
-    <!-- All links here -->
+    <br /><br />
     <form class="centered">
       <label>Social</label><br /><br />
-      <button
-        class="git"
-        onclick="window.open('https://github.com/kpriyanshu2003','_blank')"
-      >
-        <i class="fa fa-github"></i>&nbsp;Github (primary)
-      </button>
+      <div id="social"></div>
 
-      <button
-        class="web2"
-        onclick="window.open('../resources/resume.pdf','_blank')"
-      >
-        <i class="fa-solid fa-file"></i>&nbsp;Resume
-      </button>
-
-      <button class="web1" onclick="alert('You are on website (primary)');">
-        <i class="fa fa-globe"></i>&nbsp;Website (primary)
-      </button>
-
-      <!--button class="blog" onclick="window.open('https://priyanshukumar2003.blogspot.com/','_blank')"-->
-      <!--i class="fa fa-blog"></i>&nbsp;Blog</button-->
-
-      <button
-        class="ig"
-        onclick="window.open('https://www.instagram.com/_iampriyanshukumar_/','_blank')"
-      >
-        <i class="fa fa-instagram"></i>&nbsp;Instagram
-      </button>
-
-      <button
-        class="fb"
-        onclick="window.open('https://www.facebook.com/priyanshu241','_blank')"
-      >
-        <i class="fa fa-facebook"></i>&nbsp;Facebook
-      </button>
-
-      <button
-        class="tw"
-        onclick="window.open('https://twitter.com/kpriyanshu2003','_blank')"
-      >
-        <i class="fa fa-twitter"></i>&nbsp;Twitter
-      </button>
-
-      <button
-        class="lin"
-        onclick="window.open('https://www.linkedin.com/in/kpriyanshu2003','_blank')"
-      >
-        <i class="fa fa-linkedin"></i>&nbsp;LinkedIn
-      </button>
-
-      <button
-        class="dis"
-        onclick="window.open('https://discordapp.com/users/1020524223988498522','_blank')"
-      >
-        <i class="fa fa-discord"></i>&nbsp;Discord
-      </button>
-
-      <button
-        class="snap"
-        onclick="window.open('https://www.snapchat.com/add/mr.priyanshu24','_blank')"
-      >
-        <i class="fa fa-snapchat"></i>&nbsp;Snapchat
-      </button>
-
-      <button
-        class="yt"
-        onclick="window.open('https://youtube.com/channel/UCLL7h4aXa4UfDtTeFIoOkIQ','_blank')"
-      >
-        <i class="fa fa-youtube"></i>&nbsp;Youtube
-      </button>
-
-      <button
-        class="tg"
-        onclick="window.open('https://telegram.me/priyanshukumar2003','_blank')"
-      >
-        <i class="fa fa-telegram"></i>&nbsp;Telegram
-      </button>
-
-      <!--button class="tg" onclick="window.open('https://telegram.me/LOCUSUPDATE','_blank')"-->
-      <!--i class="fa fa-telegram"></i>&nbsp;Telegram Channel</button-->
-
-      <button
-        class="web3"
-        onclick="window.open('https://restless.moviz.workers.dev','_blank')"
-      >
-        <i class="fa fa-globe"></i>&nbsp;Link Shortening Website
-      </button>
-
-      <br /><label>Projects - Learning</label><br /><br />
-      <div id="proj">
-        <button
-          onclick="window.open('https://github.com/kpriyanshu/CPP-Marathon','_blank')"
-        >
-          CPP-Marathon
-        </button>
-
-        <button
-          onclick="window.open('https://github.com/kpriyanshu/CSS-Marathon','_blank')"
-        >
-          CSS-Marathon
-        </button>
-
-        <button
-          onclick="window.open('https://github.com/kpriyanshu/JS-Marathon','_blank')"
-        >
-          JS-Marathon
-        </button>
-
-        <!-- button onclick="window.open('https://github.com/kpriyanshu/Python-ML-Marathon','_blank')">
-                Figma-Marathon</button-->
-
-        <!-- button onclick="window.open('https://github.com/kpriyanshu/Python-ML-Marathon','_blank')">
-                Python-Marathon</button-->
-
-        <!-- button onclick="window.open('https://github.com/kpriyanshu/Python-ML-Marathon','_blank')">
-                Python-ML-Marathon</button-->
-      </div>
-      <br /><label>Projects - SelfMade</label><br /><br />
-      <div id="proj">
+      <br /><label>Repositories</label><br /><br />
+      <div id="project">
         <button
           onclick="window.open('https://github.com/kpriyanshu/kpriyanshu.github.io','_blank')"
         >
           Primary Website
-        </button>
-
-        <button
-          onclick="window.open('https://github.com/EnergyLocus/energylocus.github.io','_blank')"
-        >
-          Secondary Website
-        </button>
-
-        <button
-          onclick="window.open('https://github.com/kpriyanshu/HTML-Projects','_blank')"
-        >
-          HTML-Projects
-        </button>
-
-        <button
-          onclick="window.open('https://github.com/kpriyanshu/CPP-Projects','_blank')"
-        >
-          CPP-Projects
-        </button>
-
-        <button
-          onclick="window.open('https://github.com/kpriyanshu/QuickFonts','_blank')"
-        >
-          QuickFonts
-        </button>
-
-        <button
-          onclick="window.open('https://github.com/kpriyanshu/programmingbooks','_blank')"
-        >
-          Programming Books
-        </button>
-
-        <button
-          onclick="window.open('https://github.com/kpriyanshu/ColorWorld','_blank')"
-        >
-          ColorWorld
-        </button>
-
-        <button
-          onclick="window.open('https://github.com/kpriyanshu/Python-Telegram-Bot','_blank')"
-        >
-          Python Telegram Bot
-        </button>
-
-        <!--button onclick="window.open('https://github.com/kpriyanshu/NodeJS-Telegram-Bot','_blank')">
-                NodeJS Telegram Bot</button-->
-
-        <button
-          onclick="window.open('https://github.com/kpriyanshu/LoremIpsum','_blank')"
-        >
-          LoremIpsum
-        </button>
-
-        <button
-          onclick="window.open('https://github.com/kpriyanshu/storage','_blank')"
-        >
-          storage
-        </button>
-      </div>
-      <br /><label>Projects - Collaboration</label><br /><br />
-      <div id="proj">
-        <button
-          onclick="window.open('https://github.com/kpriyanshu/ToDo-List','_blank')"
-        >
-          ToDo-List
-        </button>
-
-        <button
-          onclick="window.open('https://github.com/kpriyanshu/Notes','_blank')"
-        >
-          Notes
         </button>
       </div>
     </form>

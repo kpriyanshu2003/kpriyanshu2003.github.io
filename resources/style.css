@@ -100,7 +100,7 @@ button {
   color: black;
 }
 
-#proj button {
+#project button {
   background-image: linear-gradient(to right, #005c97, #363795);
   opacity: 1;
 }
@@ -136,7 +136,7 @@ label,
 
 .ig:hover,
 .web2:hover,
-#proj button:hover {
+#project button:hover {
   background-image: none;
   -moz-transition: background-image 0.5s ease-in-out;
   -webkit-transition: background-image 0.5s ease-in-out;

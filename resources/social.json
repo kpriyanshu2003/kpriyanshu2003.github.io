@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/kpriyanshu2003",
+    "icon": "fa fa-github",
+    "color": "git"
+  },
+  {
+    "name": "Resume",
+    "link": "../resources/resume.pdf",
+    "icon": "fa-solid fa-file",
+    "color": "web2"
+  },
+  {
+    "name": "Website",
+    "link": "-1",
+    "icon": "fa fa-globe",
+    "color": "web1"
+  },
+  {
+    "name": "Instagram",
+    "link": "https://www.instagram.com/_iampriyanshukumar_",
+    "icon": "fa fa-instagram",
+    "color": "ig"
+  },
+  {
+    "name": "Facebook",
+    "link": "https://www.facebook.com/priyanshu241",
+    "icon": "fa fa-facebook",
+    "color": "fb"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/kpriyanshu2003",
+    "icon": "fa fa-twitter",
+    "color": "tw"
+  },
+  {
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/kpriyanshu2003",
+    "icon": "fa fa-linkedin",
+    "color": "lin"
+  },
+  {
+    "name": "Discord",
+    "link": "https://discordapp.com/users/1020524223988498522",
+    "icon": "fa fa-discord",
+    "color": "dis"
+  },
+  {
+    "name": "Snapchat",
+    "link": "https://www.snapchat.com/add/mr.priyanshu24",
+    "icon": "fa fa-snapchat",
+    "color": "snap"
+  },
+  {
+    "name": "Youtube",
+    "link": "https://youtube.com/channel/UCLL7h4aXa4UfDtTeFIoOkIQ",
+    "icon": "fa fa-youtube",
+    "color": "yt"
+  },
+  {
+    "name": "Telegram",
+    "link": "https://telegram.me/priyanshukumar2003",
+    "icon": "fa fa-telegram",
+    "color": "tg"
+  }
+]
