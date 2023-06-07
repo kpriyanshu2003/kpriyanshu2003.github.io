@@ -30,19 +30,9 @@
     "link": "https://github.com/kpriyanshu2003/greetings"
   },
   {
-    "name": "HTML Projects",
-    "status": 1,
-    "link": "https://github.com/kpriyanshu2003/HTML-Projects"
-  },
-  {
     "name": "Vep - Bank Website",
     "status": 1,
     "link": "https://github.com/kpriyanshu2003/iot-practice"
-  },
-  {
-    "name": "JS Projects",
-    "status": 1,
-    "link": "https://github.com/kpriyanshu2003/JS-Projects"
   },
   {
     "name": "Primary Website",
@@ -90,11 +80,6 @@
     "link": "https://github.com/kpriyanshu2003/QuickFonts"
   },
   {
-    "name": "SGPA Calculator",
-    "status": 0,
-    "link": "https://github.com/kpriyanshu2003/SGPA-Calculator"
-  },
-  {
     "name": "Termux Tutorials",
     "status": 0,
     "link": "https://github.com/kpriyanshu2003/Termux"
@@ -108,5 +93,10 @@
     "name": "Whatsapp Link Generator",
     "status": 1,
     "link": "https://github.com/kpriyanshu2003/wamsg-gen"
+  },
+  {
+    "name": "Web Projects",
+    "status": 1,
+    "link": "https://github.com/kpriyanshu2003/Web-Projects"
   }
 ]
