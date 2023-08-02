@@ -1,4 +1,0 @@
-1. Move this page to website branch.
-2. Get projects from MongoDB
-3. Get social from MongoDB
-4. Implement redirect - use MongoDB
