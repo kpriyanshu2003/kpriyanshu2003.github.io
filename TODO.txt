@@ -1,0 +1,5 @@
+1. Fix top-loading-bar
+2. Fetch Articles from Hashnode
+3. Fetch Projects from MongoDB
+4. Fetch Experience from MongoDB
+5. Render markdown and a route for articles/:slug

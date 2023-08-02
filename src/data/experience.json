@@ -1,0 +1,62 @@
+[
+  {
+    "key": "1",
+    "name": "Full Stack Web Development",
+    "time": "7",
+    "imageLink": "https://w7.pngwing.com/pngs/18/497/png-transparent-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue-signage.png"
+  },
+  {
+    "key": "2",
+    "name": "Robotic",
+    "time": "5",
+    "imageLink": "https://w7.pngwing.com/pngs/18/497/png-transparent-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue-signage.png"
+  },
+  {
+    "key": "3",
+    "name": "Android Development",
+    "time": "3",
+    "imageLink": "https://w7.pngwing.com/pngs/18/497/png-transparent-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue-signage.png"
+  },
+  {
+    "key": "4",
+    "name": "Data Science",
+    "time": "4",
+    "imageLink": "https://w7.pngwing.com/pngs/18/497/png-transparent-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue-signage.png"
+  },
+  {
+    "key": "5",
+    "name": "iOS Development",
+    "time": "6",
+    "imageLink": "https://w7.pngwing.com/pngs/18/497/png-transparent-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue-signage.png"
+  },
+  {
+    "key": "6",
+    "name": "Machine Learning",
+    "time": "8",
+    "imageLink": "https://w7.pngwing.com/pngs/18/497/png-transparent-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue-signage.png"
+  },
+  {
+    "key": "7",
+    "name": "UI/UX Design",
+    "time": "5",
+    "imageLink": "https://w7.pngwing.com/pngs/18/497/png-transparent-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue-signage.png"
+  },
+  {
+    "key": "8",
+    "name": "Game Development",
+    "time": "3",
+    "imageLink": "https://w7.pngwing.com/pngs/18/497/png-transparent-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue-signage.png"
+  },
+  {
+    "key": "9",
+    "name": "Cloud Computing",
+    "time": "6",
+    "imageLink": "https://w7.pngwing.com/pngs/18/497/png-transparent-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue-signage.png"
+  },
+  {
+    "key": "10",
+    "name": "Blockchain Development",
+    "time": "4",
+    "imageLink": "https://w7.pngwing.com/pngs/18/497/png-transparent-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue-signage.png"
+  }
+]
