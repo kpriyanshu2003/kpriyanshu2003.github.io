@@ -1,0 +1,157 @@
+body {
+  background: black;
+  color: white;
+}
+a {
+  color: white;
+}
+label {
+  font-size: 150%;
+}
+img {
+  border-radius: 80%;
+  width: 12%;
+}
+
+.container {
+  text-align: center;
+}
+.centered {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+button {
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  transition: 0.4s;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 450px) {
+  .centered {
+    width: 100%;
+  }
+  .container {
+    text-align: center;
+  }
+  img {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 700px) and (min-width: 451px) {
+  .centered {
+    width: 60%;
+  }
+  .container {
+    text-align: center;
+  }
+  img {
+    width: 20%;
+  }
+}
+
+.git {
+  background-color: #495057;
+}
+.fb {
+  background-color: rgb(66, 103, 178);
+}
+.lin {
+  background-color: #0072b1;
+}
+.yt {
+  background-color: rgb(255, 0, 0);
+}
+.tw {
+  background-color: #00acee;
+}
+.blog {
+  background-color: #fc4f08;
+}
+.tg {
+  background-color: #0088cc;
+}
+.pro {
+  background-color: rgb(139, 0, 0);
+}
+.qu {
+  background-color: #a82400;
+}
+.web3 {
+  background-color: #272a2f;
+}
+.dis {
+  background-color: RGB(114, 137, 218);
+}
+.snap {
+  background-color: RGB(255, 252, 0);
+  color: black;
+}
+
+#project button {
+  background-image: linear-gradient(to right, #005c97, #363795);
+  opacity: 1;
+}
+.web1 {
+  background-color: #000000;
+  border: 1px solid white;
+  padding: 180x;
+}
+
+button,
+.centered {
+  font-family: "Quicksand", sans-serif;
+}
+label,
+.container {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.ig {
+  background-image: linear-gradient(
+    to right,
+    rgb(181, 30, 194),
+    rgb(30, 74, 192)
+  );
+}
+.web2 {
+  background-image: linear-gradient(
+    to right,
+    rgb(20, 88, 153),
+    rgb(20, 147, 91)
+  );
+}
+
+.ig:hover,
+.web2:hover,
+#project button:hover {
+  background-image: none;
+  -moz-transition: background-image 0.5s ease-in-out;
+  -webkit-transition: background-image 0.5s ease-in-out;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.hN {
+  background: #2962ff;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+&::-webkit-scrollbar {
+  display: none;
+}
