@@ -11,7 +11,7 @@ export default function Home() {
     <div className="bg-gray-950">
       <div className="md:border md:mx-24 bg-[#161b22] border-gray-800">
         <NavBar />
-        <TopLoadingBar />
+        {/* <TopLoadingBar /> */}
         <div className="md:mx-24 md:my-16 my-8">
           <Main />
           <div className="md:flex md:items-start md:justify-between my-16 md:my-10">
