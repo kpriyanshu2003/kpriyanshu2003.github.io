@@ -1,6 +1,42 @@
 [
   {
+    "name": "Github",
+    "url": ""
+  },
+  {
+    "name": "Resume",
+    "url": ""
+  },
+  {
+    "name": "Portfolio",
+    "url": ""
+  },
+  {
     "name": "Instagram",
-    "url": "https://www.instagram.com/_iampriyanshukumar_"
+    "url": ""
+  },
+  {
+    "name": "Twitter",
+    "url": ""
+  },
+  {
+    "name": "LinkedIn",
+    "url": ""
+  },
+  {
+    "name": "Telegram",
+    "url": ""
+  },
+  {
+    "name": "Hashnode",
+    "url": ""
+  },
+  {
+    "name": "Leetcode",
+    "url": ""
+  },
+  {
+    "name": "Codeforces",
+    "url": ""
   }
 ]
