@@ -1,14 +1,14 @@
-import Button from "@/ui/Button";
-import Link from "next/link";
 import React from "react";
-import url from "@/constants/url.json";
-import social from "@/constants/social.json";
-import { v4 as uuid } from "uuid";
-import { redirect } from "next/navigation";
+import Link from "next/link";
 import Image from "next/image";
-import classNames from "classnames";
+import Button from "@/ui/Button";
+import { v4 as uuid } from "uuid";
+import url from "@/constants/url.json";
+import { getJSON } from "@/actions/json";
+import { redirect } from "next/navigation";
+import social from "@/constants/social.json";
 
-export default function Home() {
+export default async function Home() {
   return (
     <div className="bg-black text-white min-h-screen grid place-items-center">
       <div className="w-full">
