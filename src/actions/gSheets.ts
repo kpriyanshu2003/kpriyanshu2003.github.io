@@ -4,23 +4,19 @@ import { google } from "googleapis";
 const serviceAccountKeyFile = "./serviceAccount.json";
 const sheetId = process.env.SHEET_ID;
 const tabName = process.env.TAB_NAME;
-const range = process.env.RANGE;
 
-async function _getGoogleSheetClient() {
+async function getGoogleSheetClient() {
   const auth = new google.auth.GoogleAuth({
     keyFile: serviceAccountKeyFile,
     scopes: ["https://www.googleapis.com/auth/spreadsheets"],
   });
   const authClient = await auth.getClient();
-  return google.sheets({
-    version: "v4",
-    auth: authClient as any, // Cast authClient to any to bypass type checking
-  });
+  return google.sheets({ version: "v4", auth: authClient as any });
 }
 
-export async function readGoogleSheet() {
+export async function readGoogleSheet(range: string) {
   const res = await (
-    await _getGoogleSheetClient()
+    await getGoogleSheetClient()
   ).spreadsheets.values.get({
     spreadsheetId: sheetId,
     range: `${tabName}!${range}`,
@@ -28,21 +24,7 @@ export async function readGoogleSheet() {
   return res.data.values;
 }
 
-// async function _writeGoogleSheet(
-//   googleSheetClient,
-//   sheetId,
-//   tabName,
-//   range,
-//   data
-// ) {
-//   await googleSheetClient.spreadsheets.values.append({
-//     spreadsheetId: sheetId,
-//     range: `${tabName}!${range}`,
-//     valueInputOption: "USER_ENTERED",
-//     insertDataOption: "INSERT_ROWS",
-//     resource: {
-//       majorDimension: "ROWS",
-//       values: data,
-//     },
-//   });
-// }
+export async function readAndFindGoogleSheet(range: string, id: string) {
+  const data = await readGoogleSheet(range);
+  return data?.find((row) => row[0] === id);
+}
