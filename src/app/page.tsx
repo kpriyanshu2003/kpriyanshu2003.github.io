@@ -25,7 +25,7 @@ export default async function Home() {
               Kumar Priyanshu
             </div>
             <div className="text-sm md:text-lg mt-2 font-light">
-              Full Stack Web Developer | MERN Stack Developer
+              Full Stack Web Developer
             </div>
           </div>
         </div>

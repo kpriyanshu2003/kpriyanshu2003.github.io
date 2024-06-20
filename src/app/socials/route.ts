@@ -2,6 +2,8 @@ import { readGoogleSheet } from "@/actions/gSheets";
 import { NextRequest } from "next/server";
 
 export async function GET(Request: NextRequest) {
+  return new Response("Hello World");
+
   const range = Request.url.split("?")[1];
   const pattern = /^[A-Za-z]\d*:[A-Za-z]\d*$/;
   if (!range || pattern.test(range) === false)
